@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#roll-images {
+    position: relative;
+    margin:0;
+}
+
+#roll-images ul {
+    list-style: none;
+    position: absolute;
+    left: 0;
+}
+
+#roll-images li {
+    float: left;
+}
+
+
+.clear:after {
+    content: "";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
